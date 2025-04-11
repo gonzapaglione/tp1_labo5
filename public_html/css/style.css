@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.image{
+    height: 100px;
+
+}
+
+.tabla8{
+    padding-top:  100px;
+}
+
+#descripcion{
+    clear: both;
+    column-count: 3;
+}
+#col-izq{
+    width: 260px;
+    float: left;
+}
+
+#col-prin{
+    float: left;
+    width: 700px;
+}
+
+article h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    list-style-type: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 5px;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+#inicio{
+    border-top: solid 3px red;
+}
+
+#inicio:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+#nubetop{
+    border-top: solid 3px cornflowerblue;
+}
+
+#nubetop:hover{
+    transition: 0.5s;
+    background-color: cornflowerblue;
+}
+#editorial{
+    border-top: solid 3px yellow;
+}
+
+#editorial:hover{
+    transition: 0.5s;
+    background-color: yellow;
+}
+
+#year{
+    border-top: solid 3px green;
+}
+#year:hover{
+    transition: 0.5s;
+    background-color: green;
+}
+
