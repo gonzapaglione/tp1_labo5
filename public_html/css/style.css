@@ -1,4 +1,5 @@
 /*Header y nav*/
+
 header {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -10,6 +11,7 @@ header h1{
 }
 
 nav {
+    margin-left: 140px;
     width: 50%;
     height: 100px;
     list-style-type: none;
@@ -17,7 +19,7 @@ nav {
 
 nav ul {
     padding-right: 10px;
-    margin-left: 50px;
+    
     margin-top: 50px;   
     float: right;
     list-style-type: none;
@@ -48,24 +50,19 @@ article h1 {
 }
 /*Footer*/
 footer {
-    background-color: black 
-}
-
-footer h2{
-    color:white;
+    height: 200px;
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
 }
 
 footer ul{
     list-style-type: none;
-
-    justify-content: space-between;
-
 }
 
-footer p {
-    color:white;
+footer ul a{
+    text-decoration: none;
+    color: black;
 }
-
 
 /*Clases*/
 .image {
@@ -74,6 +71,13 @@ footer p {
 
 .portada{
     height: 200px;
+    border-radius: 10px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    align-content: center;
 }
 
 
@@ -81,11 +85,29 @@ footer p {
     padding-top: 100px;
 }
 
+.tabla7 {
+    border: solid black;
+}
+
+.tit-tabla{
+    padding-bottom: 10px;
+    border-bottom: solid black;
+}
+
+.tabla7 h2{
+    text-align: center;
+}
+
+.tit-cen{
+    text-align: center;
+}
+
 /*ID´s*/
 
 #icon{
-    height: 100px;
-    margin-left: 10px; 
+    height: 80px;
+    align-items: center;
+    margin: 10px; 
 }
 
 #descripcion {
@@ -96,6 +118,7 @@ footer p {
 #col-izq {
     width: 260px;
     float: left;
+    
 }
 
 #col-prin {
